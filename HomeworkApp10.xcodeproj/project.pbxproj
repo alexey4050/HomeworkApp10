@@ -15,7 +15,7 @@
 		49C904432AE81D88008E948A /* PersonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C904422AE81D88008E948A /* PersonListViewController.swift */; };
 		49C904472AE8287E008E948A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C904462AE8287E008E948A /* Person.swift */; };
 		49C9044B2AE8409B008E948A /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C9044A2AE8409B008E948A /* DataStore.swift */; };
-		49C9044F2AE909DF008E948A /* InfoPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C9044E2AE909DF008E948A /* InfoPersonViewController.swift */; };
+		49C9044F2AE909DF008E948A /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C9044E2AE909DF008E948A /* ContactsViewController.swift */; };
 		49C904512AE91660008E948A /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C904502AE91660008E948A /* TabBarController.swift */; };
 		49C904532AE926EF008E948A /* InfoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C904522AE926EF008E948A /* InfoListViewController.swift */; };
 /* End PBXBuildFile section */
@@ -31,7 +31,7 @@
 		49C904422AE81D88008E948A /* PersonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListViewController.swift; sourceTree = "<group>"; };
 		49C904462AE8287E008E948A /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		49C9044A2AE8409B008E948A /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
-		49C9044E2AE909DF008E948A /* InfoPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPersonViewController.swift; sourceTree = "<group>"; };
+		49C9044E2AE909DF008E948A /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 		49C904502AE91660008E948A /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		49C904522AE926EF008E948A /* InfoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,7 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				49C904422AE81D88008E948A /* PersonListViewController.swift */,
-				49C9044E2AE909DF008E948A /* InfoPersonViewController.swift */,
+				49C9044E2AE909DF008E948A /* ContactsViewController.swift */,
 				49C904502AE91660008E948A /* TabBarController.swift */,
 				49C904522AE926EF008E948A /* InfoListViewController.swift */,
 			);
@@ -188,7 +188,7 @@
 				49C904432AE81D88008E948A /* PersonListViewController.swift in Sources */,
 				49C904532AE926EF008E948A /* InfoListViewController.swift in Sources */,
 				49C9042D2AE81A53008E948A /* AppDelegate.swift in Sources */,
-				49C9044F2AE909DF008E948A /* InfoPersonViewController.swift in Sources */,
+				49C9044F2AE909DF008E948A /* ContactsViewController.swift in Sources */,
 				49C904472AE8287E008E948A /* Person.swift in Sources */,
 				49C904512AE91660008E948A /* TabBarController.swift in Sources */,
 				49C9044B2AE8409B008E948A /* DataStore.swift in Sources */,
