@@ -10,7 +10,7 @@ import UIKit
 final class PersonListViewController: UITableViewController {
     
     private let dataStore = DataStore()
-    var person: Person?
+    var person: Person!
     var people: [Person] = []
     
     override func viewDidLoad() {
@@ -18,7 +18,6 @@ final class PersonListViewController: UITableViewController {
         
         title = "Persons List"
         people = dataStore.generateRandomPeople()
-        
     }
 
 // MARK: - Navigation

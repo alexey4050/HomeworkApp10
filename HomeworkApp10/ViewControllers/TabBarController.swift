@@ -22,21 +22,21 @@ final class TabBarController: UITabBarController {
     }
     
     private func transferData() {
-        guard let viewControllers = viewControllers else { return }
-        viewControllers.forEach {
-            if let navigationListVC = $0 as? UINavigationController {
-                let personListVC = navigationListVC.topViewController
-                guard let personListVC = personListVC as? PersonListViewController else  { return
+        viewControllers?.forEach {
+            if let navigationController = $0 as? UINavigationController,
+               let topViewController = navigationController.topViewController {
+                
+                switch topViewController {
+                case let personListViewController as PersonListViewController:
+                    personListViewController.person = person
+                    
+                case let infoListViewController as InfoListViewController:
+                    infoListViewController.person = person
+                    
+                default:
+                    break
                 }
-                personListVC.person = person
-            } else if let navigationInfoVC = $0 as? UINavigationController {
-                let infoListVC = navigationInfoVC.topViewController
-                guard let infoListVC = infoListVC as? InfoListViewController else { return
-                }
-                infoListVC.person = person
             }
         }
     }
-    
 }
-

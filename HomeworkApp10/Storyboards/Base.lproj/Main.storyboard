@@ -82,7 +82,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="xz8-Ps-NPG" kind="show" identifier="showDetails" id="Pxz-eK-JjQ"/>
+                                    <segue destination="xz8-Ps-NPG" kind="show" identifier="showDetails" id="CD0-M9-L9R"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -97,11 +97,11 @@
             </objects>
             <point key="canvasLocation" x="-1156" y="-1035"/>
         </scene>
-        <!--Contacnts-->
+        <!--Contacts-->
         <scene sceneID="jPH-MX-x5a">
             <objects>
                 <navigationController id="Lco-h0-vb8" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Contacnts" image="person" catalog="system" id="pY1-RN-OSR"/>
+                    <tabBarItem key="tabBarItem" title="Contacts" image="person" catalog="system" id="pY1-RN-OSR"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="K82-wi-mgR">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -148,7 +148,6 @@
                             <constraint firstItem="hT0-mf-o7Y" firstAttribute="leading" secondItem="7GF-Mn-hU7" secondAttribute="leading" constant="20" id="nyG-R8-ec1"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="UEl-nC-9IK"/>
                     <connections>
                         <outlet property="emailLabel" destination="do6-wh-duJ" id="5oq-gu-cgS"/>
                         <outlet property="phoneLabel" destination="OY4-sy-eFZ" id="dmb-kP-dXy"/>

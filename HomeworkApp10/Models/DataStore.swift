@@ -39,6 +39,13 @@ class DataStore {
 extension DataStore {
     func generateRandomPeople() -> [Person] {
         var people: [Person] = []
+        guard !firstNames.isEmpty,
+                      !lastNames.isEmpty,
+                      !emails.isEmpty,
+                      !phones.isEmpty else {
+                    print("Ошибка: один или несколько массивов пустые")
+                    return people
+                }
     
         for _ in 0..<firstNames.count {
             let randomFirstName = firstNames.randomElement() ?? ""

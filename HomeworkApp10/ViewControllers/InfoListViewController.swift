@@ -15,7 +15,7 @@ class InfoListViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Persons List"
+        //title = "Persons List"
         people = dataStore.generateRandomPeople()
         
     }
@@ -70,5 +70,10 @@ extension InfoListViewController {
     
     override func tableView(_ tableView: UITableView, shouldIndentWhileEditingRowAt indexPath: IndexPath) -> Bool {
         false
+    }
+    
+    override func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
+        (view as! UITableViewHeaderFooterView).contentView.backgroundColor = UIColor.black.withAlphaComponent(0.4)
+        (view as! UITableViewHeaderFooterView).textLabel?.textColor = UIColor.white
     }
 }
